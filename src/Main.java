@@ -17,6 +17,24 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Scanner sc=
+        Scanner sc= new Scanner(System.in);
+        Showroom showroom[]= new Showroom[5];
+        Employees employee[]=new Employees[5];
+        int car_counter=0;
+        int showroom_counter=0;
+        int employees_counter=0;
+        int choice=100;
+        while (choice!=0){
+            main_menu();
+            choice=sc.nextInt();
+            while(choice!=9&&choice!=0){
+                switch(choice){
+                    case 1:
+                        showroom[showroom_counter]= new Showroom();
+                        showroom[showroom_counter].set_details();
+                        
+                }
+            }
+        }
     }
 }
