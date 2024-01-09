@@ -32,7 +32,66 @@ public class Main {
                     case 1:
                         showroom[showroom_counter]= new Showroom();
                         showroom[showroom_counter].set_details();
-                        
+                        showroom_counter++;
+                        System.out.println();
+                        System.out.println("1].ADD NEW SHOWROOM");
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        choice=sc.nextInt();
+                        break;
+                    case 2:
+                        employee[employees_counter]=new Employees();
+                        employee[employees_counter].set_details();
+                        employees_counter++;
+                        System.out.println();
+                        System.out.println("2].Add New Employee");
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        choice=sc.nextInt();
+                        break;
+                    case 3:
+                        car[car_counter]=new Cars();
+                        car[car_counter].set_details();
+                        car_counter++;
+                        System.out.println();
+                        System.out.println("3].ADD NEW CAR");
+                        System.out.println("9].GO BACK TO MAIN MENU");
+                        choice=sc.nextInt();
+                        break;
+                    case 4:
+                        for (int i=0;i<showroom_counter;i++){
+                            showroom[i].get_details();
+                            System.out.println();
+                            System.out.println();
+                            System.out.println();
+                        }
+                        System.out.println();
+                        System.out.println();
+                        System.out.println("9]. GO BACK TO MENU");
+                        System.out.println("0]. EXIT");
+                        choice=sc.nextInt();
+                        break;
+                    case 5:
+                        for(int i=0;i<employees_counter;i++){
+                            employee[i].get_details();
+                            System.out.println();
+                            System.out.println();
+                        }
+                        System.out.println();
+                        System.out.println("9].GO BACK TO MENU");
+                        System.out.println("0]. EXIT");
+                        choice=sc.nextInt();
+                        break;
+                    case 6:
+                        for(int i=0;i<car_counter;i++){
+                            car[i].get_details();
+                            System.out.println();
+                            System.out.println("9].GO BACK TO MENU");
+                            System.out.println("0].EXIT");
+                            choice=sc.nextInt();
+                            break;
+                            default:
+                                System.out.println("ENTER VALID CHOICE");
+                                break;
+                        }
                 }
             }
         }
