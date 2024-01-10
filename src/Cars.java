@@ -16,7 +16,7 @@ public class Cars extends Showroom implements utility{
         System.out.println("CAR TYPE: "+car_type);
         System.out.println("TRANSMISSION: "+car_transmission);
     }
-    @Overide
+    @Override
     public void set_details(){
         Scanner sc= new Scanner(System.in);
         System.out.println("==================****ENTER CAR DETAILS****===================");

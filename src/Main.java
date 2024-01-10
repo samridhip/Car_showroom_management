@@ -20,6 +20,7 @@ public class Main {
         Scanner sc= new Scanner(System.in);
         Showroom showroom[]= new Showroom[5];
         Employees employee[]=new Employees[5];
+        Cars car[]=new Cars[5];
         int car_counter=0;
         int showroom_counter=0;
         int employees_counter=0;
@@ -81,16 +82,18 @@ public class Main {
                         choice=sc.nextInt();
                         break;
                     case 6:
-                        for(int i=0;i<car_counter;i++){
+                        for(int i=0;i<car_counter;i++) {
                             car[i].get_details();
                             System.out.println();
+                            System.out.println();
+                        }
                             System.out.println("9].GO BACK TO MENU");
                             System.out.println("0].EXIT");
                             choice=sc.nextInt();
                             break;
-                            default:
-                                System.out.println("ENTER VALID CHOICE");
-                                break;
+                    default:
+                        System.out.println("ENTER VALID CHOICE");
+                        break;
                         }
                 }
             }
