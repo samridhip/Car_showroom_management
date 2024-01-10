@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1a4af1e-58c1-41ac-abc8-d9dd82dc9dbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Showroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Showroom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704821555025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Car Showroom Management projects">
+      <created>1704822683995</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704822683995</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Car Showroom Management projects">
+      <created>1704822784922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704822784922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
